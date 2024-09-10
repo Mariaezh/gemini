@@ -48,7 +48,16 @@ const sintomasDuchenne = {
             "Aumento do problema cardíaco;",
             "Insuficiência cardíaca;",
             "Expectativa de vida severamente reduzida.".
-        ]
-      }
-    ]
-    };
+        ],
+      },
+    ],
+    link: "https://www.neurologica.com.br/blog/quais-sao-os-sinais-e-sintomas-da-distrofia-muscular-de-duchenne/"
+};
+let causas = {
+    titulo: "Causas da Distrofia Muscular de Duchenne",
+    descricao: "A distrofia muscular de Duchenne é causada por mutações no gene DMD, que está presente no cromossomo X e codifica a proteína citoesquelética distrofina, responsável por estabilizar o sarcolema (membrana da célula muscular).  Quando essa proteína está ausente ou alterada, o sarcolema torna-se mais frágil e rompe-se mais facilmente. A distrofia muscular de Duchenne tem padrão de herança recessiva ligada ao X e afeta principalmente meninos.",
+    link: "https://blog.mendelics.com.br/distrofia-muscular-de-duchenne/#:~:text=A%20distrofia%20muscular%20de%20Duchenne%20tem%20padr%C3%A3o%20de%20heran%C3%A7a%20recessiva,ocorre%20principalmente%20muta%C3%A7%C3%B5es%20de%20ponto."
+};
+let imagem = new Image();
+    imagem.src = "C:\Users\Maria\gemini\distrofina mapa.png"
+    imagem.alt = "Proteina da distrofina"
